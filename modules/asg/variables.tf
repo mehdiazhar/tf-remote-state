@@ -1,0 +1,10 @@
+variable "instance_type" {}
+variable "vpc_id" {}
+variable "private_subnet" {}
+variable "key_name" {}
+variable "alb_tg" {}
+variable "alb_sg" {}
+variable "desired_capacity" {}
+variable "min_size" {}
+variable "max_size" {}
+variable "clb_dns" {}
